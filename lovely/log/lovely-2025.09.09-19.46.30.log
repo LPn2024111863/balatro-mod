@@ -1,0 +1,187 @@
+INFO - [♥] Lovely 0.8.0
+INFO - [♥] Game directory is at "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Balatro"
+INFO - [♥] Writing logs to "C:\\Users\\irene\\AppData\\Roaming\\Balatro\\Mods\\lovely\\log"
+INFO - [♥] Using mod directory at "C:\\Users\\irene\\AppData\\Roaming\\Balatro\\Mods"
+WARN - [♥] Unknown key `patches.0.?.match_indent` found in patch file at "C:\\Users\\irene\\AppData\\Roaming\\Balatro\\Mods\\smods-main\\lovely\\scoring_calculation.toml", ignoring it
+INFO - [♥] Cleaning up dumps directory at "C:\\Users\\irene\\AppData\\Roaming\\Balatro\\Mods\\lovely\\dump"
+INFO - [♥] Initialization complete in 76ms
+INFO - [♥] Applied 9 patches to 'main.lua'
+INFO - [♥] Applied 5 patches to 'engine/controller.lua'
+INFO - [♥] Applied 15 patches to 'back.lua'
+INFO - [♥] Applied 8 patches to 'tag.lua'
+INFO - [♥] Applied 2 patches to 'engine/moveable.lua'
+INFO - [♥] Applied 2 patches to 'engine/sprite.lua'
+INFO - [♥] Applied 2 patches to 'engine/animatedsprite.lua'
+INFO - [♥] Applied 78 patches to 'functions/misc_functions.lua'
+INFO - [♥] Applied 48 patches to 'game.lua'
+INFO - [♥] Applied 1 patch to 'globals.lua'
+INFO - [♥] Applied 7 patches to 'engine/ui.lua'
+INFO - [♥] Applied 102 patches to 'functions/UI_definitions.lua'
+INFO - [♥] Applied 55 patches to 'functions/state_events.lua'
+INFO - [♥] Applied 122 patches to 'functions/common_events.lua'
+INFO - [♥] Applied 54 patches to 'functions/button_callbacks.lua'
+WARN - [♥] Regex 'localize\\(\'k_upgrade_ex\'\\)\\}\\); return true\n[ \\t]*end\\}\\)\\)\n[ \\t]*end\n(?<indent>[ \\t]*)return' on target 'card.lua' for regex patch from smods-main\lovely\joker_retriggers.toml resulted in no matches
+WARN - [♥] Regex '[ \\t]*G\\.C\\.MULT\\}\\)\n[ \\t]*return true\n[ \\t]*end\\)\\}\\)\\)\n(?<indent>[ \\t]*)end' on target 'card.lua' for regex patch from smods-main\lovely\joker_retriggers.toml resulted in no matches
+WARN - [♥] Regex '[ \\t]*func = function\\(\\) card_eval_status_text\\(self, \'extra\', nil, nil, nil, \\{message = localize\\{type = \'variable\', key = \'a_xmult\', vars = \\{self\\.ability\\.caino_xmult\\}\\}\\}\\); return true\n(?<indent>[ \\t]*)end\\}\\)\\)' on target 'card.lua' for regex patch from smods-main\lovely\joker_retriggers.toml resulted in no matches
+WARN - [♥] Regex 'glass_cards\\}\\}\\}\\)\n[ \\t]*return true\n[ \\t]*end\n(?<indent>[ \\t]*)\\}\\)\\)' on target 'card.lua' for regex patch from smods-main\lovely\joker_retriggers.toml resulted in no matches
+INFO - [♥] Applied 218 patches to 'card.lua'
+INFO - [♥] Applied 20 patches to 'cardarea.lua'
+INFO - [♥] Applied 40 patches to 'blind.lua'
+INFO - [♥] Applied 10 patches to 'card_character.lua'
+INFO - [♥] Applied 10 patches to 'engine/text.lua'
+INFO - [G] Failed to connect to the debug server
+INFO - [G] 2025-09-09 19:46:35 :: DEBUG :: DebugConsole :: Steamodded Debug Socket started !
+INFO - [G] 2025-09-09 19:46:35 :: INFO  :: SMODS :: Steamodded v1.0.0~BETA-0906c
+INFO - [♥] Applied 9 patches to 'engine/sound_manager.lua'
+INFO - [♥] Applied 1 patch to 'engine/save_manager.lua'
+INFO - [G] 2025-09-09 19:46:37 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\irene\AppData\Roaming\Balatro\Mods/.vscode/settings.json, ignoring: [SMODS _ "src/loader.lua"]:226: id
+INFO - [G] 2025-09-09 19:46:37 :: TRACE :: Loader :: Processing Mod file (Legacy header): main.lua
+INFO - [G] 2025-09-09 19:46:37 :: TRACE :: Loader :: Saving Mod Info: EXAMPLEJOKER
+INFO - [G] 2025-09-09 19:46:37 :: TRACE :: Loader :: Processing Mod file (Legacy header): Main.lua
+INFO - [G] 2025-09-09 19:46:37 :: TRACE :: Loader :: Saving Mod Info: SimpleJoker
+INFO - [G] 2025-09-09 19:46:37 :: INFO  :: TIMER :: [0000] Injected Fonts in 0.004 ms
+INFO - [G] 2025-09-09 19:46:37 :: INFO  :: TIMER :: [0000] Injected DynaTextEffects in 0.006 ms
+INFO - [G] 2025-09-09 19:46:37 :: INFO  :: TIMER :: [0000] Injected Language in 0.004 ms
+INFO - [G] 2025-09-09 19:46:37 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 2.233 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0006] Injected Atlas in 684.353 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0001] Injected Sound in 0.593 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0008] Injected Stake in 0.285 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0004] Injected Rarity in 0.063 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0005] Injected ObjectType in 0.097 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0054] Injected Center in 1.150 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0008] Injected Undiscovered Sprite in 0.069 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0003] Injected Blind in 0.059 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0004] Injected Seal in 0.390 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0004] Injected Suit in 0.224 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0013] Injected Rank in 0.343 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0028] Injected DeckSkin in 0.515 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0017] Injected JimboQuip in 0.200 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0012] Injected PokerHand in 0.218 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0020] Injected Challenge in 0.194 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0000] Injected Tag in 0.002 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0004] Injected Sticker in 0.194 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0000] Injected Shader in 0.004 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0002] Injected Keybind in 0.058 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0000] Injected Achievement in 0.078 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0002] Injected nil in 0.031 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0002] Injected Scoring_Parameters in 0.240 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0003] Injected Scoring_Calculations in 0.058 ms
+INFO - [G] 2025-09-09 19:46:38 :: INFO  :: TIMER :: [0021] Injected Draw Step in 0.201 ms
+INFO - [G] 2025-09-09 19:46:39 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 0.498 ms
+INFO - [G] line not found
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] line not found
+INFO - [G] file not found: functions/button_callbacks.lua: No such file or directory
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] 2025-09-09 19:46:44 :: ERROR :: StackTrace :: Oops! The game crashed
+engine/sprite.lua:11: attempt to index field 'atlas' (a nil value)
+Stack Traceback
+===============
+(1) Lua local 'handler' at file 'main.lua:612'
+	Local variables:
+	 msg = string: "engine/sprite.lua:11: attempt to index field 'atlas' (a nil value)"
+	 (*temporary) = Lua function '?' (defined at line 31 of chunk [SMODS _ "src/logging.lua"])
+	 (*temporary) = string: "Oops! The game crashed\
+"
+(2) LÖVE metamethod at file 'boot.lua:352'
+	Local variables:
+	 errhand = Lua function '?' (defined at line 598 of chunk main.lua)
+	 handler = Lua function '?' (defined at line 598 of chunk main.lua)
+(3) Lua field 'init' at file 'engine/sprite.lua:11'
+	Local variables:
+	 self = table: 0x0a487530  {velocity:table: 0x0a487828, click_offset:table: 0x0a487620, children:table: 0x0a4877b0, T:table: 0x0a4875f8, CT:table: 0x0a487800, shadow_height:0.2 (more...)}
+	 X = number: 11.727
+	 Y = number: 0.802
+	 W = number: 1.3
+	 H = number: 1.3
+	 new_sprite_atlas = nil
+	 sprite_pos = table: 0x09e09c38  {y:0, x:0}
+	 (*temporary) = table: 0x0a4879b8  {}
+	 (*temporary) = nil
+	 (*temporary) = number: 11.727
+	 (*temporary) = number: 0.802
+	 (*temporary) = number: 1.3
+	 (*temporary) = number: 1.3
+	 (*temporary) = string: "attempt to index field 'atlas' (a nil value)"
+(4) Lua method 'init' at file 'engine/animatedsprite.lua:8'
+	Local variables:
+	 self = table: 0x0a487530  {velocity:table: 0x0a487828, click_offset:table: 0x0a487620, children:table: 0x0a4877b0, T:table: 0x0a4875f8, CT:table: 0x0a487800, shadow_height:0.2 (more...)}
+	 X = number: 11.727
+	 Y = number: 0.802
+	 W = number: 1.3
+	 H = number: 1.3
+	 new_sprite_atlas = nil
+	 sprite_pos = table: 0x09e09c38  {y:0, x:0}
+(5) Lua global 'AnimatedSprite' at file 'engine/object.lua:35'
+	Local variables:
+	 self = table: 0x09cc71f0  {reset:function: 0x09cc10c0, rescale:function: 0x09cc10a0, __call:function: 0x09d00938, animate:function: 0x09cc4458, draw_self:function: 0x09cc4438 (more...)}
+	 obj = table: 0x0a487530  {velocity:table: 0x0a487828, click_offset:table: 0x0a487620, children:table: 0x0a4877b0, T:table: 0x0a4875f8, CT:table: 0x0a487800, shadow_height:0.2 (more...)}
+(6) Lua function '?' at Steamodded file 'src/overrides.lua:312'  (best guess)
+	Local variables:
+	 args = table: 0x0a486fe0  {to_val:Page 2/2, cycle_config:table: 0x09ea5430, from_key:1, to_key:2, from_val:Page 1/2}
+	 cols = number: 5
+	 rows = number: 6
+	 page = number: 2
+	 blind_tab = table: 0x0a4874e0  {1:table: 0x09e09c10}
+	 this_page = table: 0x0a4874e0  {1:table: 0x09e09c10}
+	 blinds_to_be_alerted = table: 0x0a487508  {}
+	 row = number: 1
+	 col = number: 1
+	 (for generator) = C function: builtin#6
+	 (for state) = table: 0x0a4874e0  {1:table: 0x09e09c10}
+	 (for control) = number: 1
+	 k = number: 1
+	 v = table: 0x09e09c10  {alerted:false, _saved_d_u:true, original_key:test, mod:table: 0x0a27b9c0, unlocked:true, _u:true, _discovered_unlocked_overwritten:true, order:33 (more...)}
+(7) Lua function '?' at file 'functions/button_callbacks.lua:579' (best guess)
+	Local variables:
+	 e = table: 0x0a731378  {pixellated_rect:table: 0x0a481d10, click_offset:table: 0x0a21c108, children:table: 0x0a7313a0, parent:table: 0x0a37e748, T:table: 0x0a21bf58 (more...)}
+	 from_val = string: "Page 1/2"
+	 from_key = number: 1
+	 old_pip = nil
+	 cycle_main = table: 0x0a3fca80  {pixellated_rect:table: 0x0a2dd938, click_offset:table: 0x0a2199e8, children:table: 0x0a3fcaa8, parent:table: 0x0a37e748, T:table: 0x0a2198f8 (more...)}
+	 to_val = string: "Page 2/2"
+	 to_key = number: 2
+	 new_pip = nil
+(8) Lua method 'click' at file 'engine/ui.lua:989'
+	Local variables:
+	 self = table: 0x0a731378  {pixellated_rect:table: 0x0a481d10, click_offset:table: 0x0a21c108, children:table: 0x0a7313a0, parent:table: 0x0a37e748, T:table: 0x0a21bf58 (more...)}
+(9) Lua method 'update' at file 'engine/controller.lua:375'
+	Local variables:
+	 self = table: 0x0a23af40  {held_button_times:table: 0x0a23b810, focus_cursor_stack_level:1, snap_cursor_to:table: 0x0a100160, interrupt:table: 0x0a23b860, GAMEPAD:table: 0x0a23c090 (more...)}
+	 dt = number: 0.0167082
+(10) Lua upvalue 'gameUpdateRef' at file 'game.lua:2715'
+	Local variables:
+	 self = table: 0x09da2c10  {F_GUIDE:false, F_CRASH_REPORTS:false, F_QUIT_BUTTON:true, collection_alert:table: 0x0a840e80, F_ENGLISH_ONLY:false, sort_id:32, F_DISCORD:true (more...)}
+	 dt = number: 0
+(11) Lua method 'update' at Steamodded file 'src/ui.lua:124' 
+	Local variables:
+	 self = table: 0x09da2c10  {F_GUIDE:false, F_CRASH_REPORTS:false, F_QUIT_BUTTON:true, collection_alert:table: 0x0a840e80, F_ENGLISH_ONLY:false, sort_id:32, F_DISCORD:true (more...)}
+	 dt = number: 0.0167082
+(12) Lua field 'update' at file 'main.lua:1007'
+	Local variables:
+	 dt = number: 0.0167082
+(13) Lua function '?' at file 'main.lua:946' (best guess)
+(14) global C function 'xpcall'
+(15) LÖVE function at file 'boot.lua:377' (best guess)
+	Local variables:
+	 func = Lua function '?' (defined at line 917 of chunk main.lua)
+	 inerror = boolean: true
+	 deferErrhand = Lua function '(LÖVE Function)' (defined at line 348 of chunk [love "boot.lua"])
+	 earlyinit = Lua function '(LÖVE Function)' (defined at line 355 of chunk [love "boot.lua"])
+
+INFO - [G] line not found
+INFO - [G] file not found: functions/button_callbacks.lua: No such file or directory
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] file not found: main.lua: No such file or directory
+INFO - [G] 2025-09-09 19:46:44 :: INFO  :: StackTrace :: Additional Context:
+Balatro Version: 1.0.1o-FULL
+Modded Version: 1.0.0~BETA-0906c-STEAMODDED
+LÖVE Version: 11.5.0
+Lovely Version: 0.8.0
+Platform: Windows
+Steamodded Mods:
+    1: Simple by Gonçalo, Braz, Hernani [ID: SimpleJoker]
+    2: Example Joker by elial1 [ID: EXAMPLEJOKER]
+Lovely Mods:
